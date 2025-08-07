@@ -1,0 +1,129 @@
+@import url('https://db.onlinewebfonts.com/c/000833a3a58fb083c44b9de42c2ff0a2?family=Gilroy-SemiBold');
+@import url('https://fonts.cdnfonts.com/css/mulish');
+
+.container
+{
+    display: flex;
+    height: 716px;
+    width: 70%;
+    justify-content: center;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.leftone
+{
+    width: 38%;
+    height: 100%;
+    background-color: #084B3E;
+    border-radius: 40px 0 0 40px;
+    padding: 30px 0 0 30px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logo
+{
+    height: 95px;
+    width: 170px;
+    padding: 5px;
+    margin: 0 0 0 12px;
+}
+.left-text
+{
+    color: rgb(249, 226, 186);
+    font-size: 35px;
+    max-width: 350px;
+    font-style: normal;
+    line-height: 42px;
+    font-family: "Gilroy-SemiBold";
+    font-weight: 300;
+    margin: 0 0 20px 12px;
+    padding: 10px 0;
+}
+
+.rightone
+{
+    width: 60%;
+    height: 100%;
+    background-color: #FFFFFF;
+    border-radius: 0 40px 40px 0;
+    padding: 15px 0 15px 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.right-text
+{
+    padding: 5px 18px;
+    font-size: 32px;
+    font-family: 'Gilroy-SemiBold';
+    font-weight: 300;
+    line-height: 42px;
+    color: rgb(35, 35, 35);
+    letter-spacing: -0.5px
+}
+.form
+{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 55%;
+    width: 100%;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+}
+
+.form label
+{
+    font-size: 16px;
+    font-family: 'Gilroy-SemiBold';
+    font-weight: 550;
+    color: rgb(52, 52, 52);
+}
+
+.form input
+{
+    width: 70%;
+    height: 16px;
+    border: none;
+    border-bottom: 0.5px solid #1a1919;
+    outline: none;
+}
+
+.btn
+{
+    margin-top: 4%;
+    width: 70%;
+    height: 65px;
+    border-radius: 17px;
+    border: none;
+    background-color: rgb(0, 195, 139);
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    font-family: 'Gilroy-SemiBold';
+    font-weight:600;
+    color: rgb(255, 249, 249);
+}
+.content
+{
+    font-size: 14px;
+    font-family: 'Mulish', sans-serif;
+    font-weight:bold;
+    color: rgb(189, 189, 189);
+    text-align:start;
+    padding: 0 20px;
+    letter-spacing: -0.5px;
+}
+a
+{
+    color: rgb(25, 176, 126);
+}
